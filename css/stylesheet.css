@@ -1,3 +1,5 @@
+/*General styling*/
+
 body {
 	background-color: #f2f2f2;
 }
@@ -11,11 +13,48 @@ body {
 	margin-right: 5em;
 }
 
+.inner-container-padding {
+	padding:2em;
+}
+
 #bufferForHeader {
 	margin-top: 3.5em;
 }
 
-header {
+.pageTitle {
+	border-bottom: solid #d3d3d3;
+}
+
+footer {
+	padding-top: 25px;
+	padding-bottom: 40px;
+	background: #f0f0f0;
+	box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
+	font-size: 13px;
+	color: #999;
+	line-height: 1.8em;
+}
+
+footer h4 {
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #211746;
+}
+
+footer ul {
+	font-size: 11px;
+	list-style: none;
+}
+
+/*END OF GENERAL STYLING*/
+
+
+
+/*Index.html*/
+
+#header-index {
 	height: 100%em;
 	background-image: url(../assets/images/headerBkg.png);
 }
@@ -40,27 +79,12 @@ header {
 	background:rgba(255,255,255,0.3);
 }
 
-footer {
-	padding-top: 15px;
-	padding-bottom: 40px;
-	background: #f0f0f0;
-	box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
-	font-size: 13px;
-	color: #999;
-	line-height: 1.8em;
-}
-
-footer h4 {
-	font-size: 12px;
-	text-align: left;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #211746;
-}
-
-footer ul {
-	font-size: 11px;
-	list-style: none;
-}
+/*END OF INDEX STYLING*/
 
 
+
+/*Contact.html*/
+
+
+
+/*END OF CONTACT STYLING*/
