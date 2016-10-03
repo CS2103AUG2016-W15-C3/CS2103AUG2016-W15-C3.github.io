@@ -34,6 +34,12 @@ header {
 	font-weight: bold;
 }
 
+#headerDescription {
+	font-size: 1.2em;
+	font-family: sans-serif;
+	background:rgba(255,255,255,0.3);
+}
+
 footer {
 	padding-top: 15px;
 	padding-bottom: 40px;
