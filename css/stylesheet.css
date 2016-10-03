@@ -79,12 +79,51 @@ footer ul {
 	background:rgba(255,255,255,0.3);
 }
 
+/* XSmall */
+@media only screen and (max-device-width: 480px) {
+	#header-left-col {
+		margin-top: 5px;
+		padding: 0em;
+	}
+
+	#header-right-col {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		padding: 0em;
+	}
+
+	#headerTitle {
+		font-size: 2.5em;
+		font-family: Courier;
+		font-weight: bold;
+	}
+}
+
 /*END OF INDEX STYLING*/
 
 
 
 /*Contact.html*/
+/* XSmall */
+@media only screen and (max-device-width: 480px) {
+	.inner-container {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
 
+	.inner-container-padding {
+		padding-top:1em;
+		padding-right: 0em;
+		padding-bottom: 0em;
+		padding-left: 0em;
+	}
+
+	#gmap_canvas {
+		height: 100px;
+		width: 100px;
+	}
+}
 
 
 /*END OF CONTACT STYLING*/
+
