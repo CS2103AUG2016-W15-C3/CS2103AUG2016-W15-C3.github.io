@@ -55,7 +55,7 @@ footer ul {
 /*Index.html*/
 
 #header-index {
-	height: 100%em;
+	height: 35em;
 	background-image: url(../assets/images/headerBkg.png);
 }
 
@@ -77,6 +77,10 @@ footer ul {
 	font-size: 1.2em;
 	font-family: sans-serif;
 	background:rgba(255,255,255,0.3);
+}
+
+#header-homeUi {
+	width: 100%;
 }
 
 .Feature_Headers {
@@ -106,6 +110,10 @@ footer ul {
 		font-size: 2.5em;
 		font-family: Courier;
 		font-weight: bold;
+	}
+
+	#header-homeUi {
+		width: 100%;
 	}
 }
 
