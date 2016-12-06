@@ -64,7 +64,10 @@ footer ul {
 }
 
 #header-right-col {
-	padding: 5em;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 5em;
+	padding-right: 5em;
 }
 
 #headerTitle {
@@ -80,7 +83,7 @@ footer ul {
 }
 
 #header-homeUi {
-	width: 100%;
+	width: 125%;
 }
 
 .Feature_Headers {
