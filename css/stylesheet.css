@@ -26,9 +26,10 @@ body {
 }
 
 footer {
+	margin-top: 25px;
 	padding-top: 25px;
 	padding-bottom: 40px;
-	background: #f0f0f0;
+	background: white;
 	box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
 	font-size: 13px;
 	color: #999;
@@ -55,20 +56,26 @@ footer ul {
 /*Index.html*/
 
 #header-index {
-	height: 100%em;
+	height: 42em;
 	background-image: url(../assets/images/headerBkg.png);
 }
 
 #header-left-col {
-	padding: 5em;
+	padding-top: 12em;
+	padding-left: 5em;
+	padding-bottom: 5em;
+	padding-right: 5em;
 }
 
 #header-right-col {
-	padding: 5em;
+	padding-top: 3.5em;
+	padding-left: 1em;
+	padding-bottom: 5em;
+	padding-right: 5em;
 }
 
 #headerTitle {
-	font-size: 2em;
+	font-size: 2.7em;
 	font-family: Courier;
 	font-weight: bold;
 }
@@ -77,6 +84,34 @@ footer ul {
 	font-size: 1.2em;
 	font-family: sans-serif;
 	background:rgba(255,255,255,0.3);
+}
+
+#header-homeUi {
+	width: 125%;
+}
+
+.feature_image {
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-bottom: 2em;
+	padding-right: 5em;
+}
+
+.feature_description {
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-bottom: 2em;
+	padding-right: 5em;
+}
+
+.feature_headers {
+	font-size: 2em;
+	font-family: Courier;
+	font-weight: bold;
+}
+
+.feature_text {
+	font-size: 1.25em;
 }
 
 /* XSmall */
@@ -96,6 +131,10 @@ footer ul {
 		font-size: 2.5em;
 		font-family: Courier;
 		font-weight: bold;
+	}
+
+	#header-homeUi {
+		width: 100%;
 	}
 }
 
