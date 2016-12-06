@@ -86,13 +86,21 @@ footer ul {
 	width: 125%;
 }
 
-.Feature_Headers {
+.feature_image {
+	padding: 5em;
+}
+
+.feature_description {
+	padding: 5em;
+}
+
+.feature_headers {
 	font-size: 2em;
 	font-family: Courier;
 	font-weight: bold;
 }
 
-.Feature_Text {
+.feature_text {
 	font-size: 1.25em;
 }
 
