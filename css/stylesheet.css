@@ -25,6 +25,12 @@ body {
 	border-bottom: solid #d3d3d3;
 }
 
+#favicon {
+	padding-left: 2em;
+	padding-top: 0.25em;
+	padding-right: 1em;
+}
+
 footer {
 	margin-top: 25px;
 	padding-top: 25px;
