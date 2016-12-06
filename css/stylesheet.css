@@ -26,9 +26,10 @@ body {
 }
 
 footer {
+	margin-top: 25px;
 	padding-top: 25px;
 	padding-bottom: 40px;
-	background: #f0f0f0;
+	background: white;
 	box-shadow: 0 1px 1px 0 rgba(240,240,240,0.1) inset;
 	font-size: 13px;
 	color: #999;
