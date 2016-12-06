@@ -85,6 +85,10 @@ footer ul {
 	font-weight: bold;
 }
 
+.Feature_Text {
+	font-size: 1.25em;
+}
+
 /* XSmall */
 @media only screen and (max-device-width: 480px) {
 	#header-left-col {
