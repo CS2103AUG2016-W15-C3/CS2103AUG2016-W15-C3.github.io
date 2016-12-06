@@ -55,16 +55,19 @@ footer ul {
 /*Index.html*/
 
 #header-index {
-	height: 35em;
+	height: 42em;
 	background-image: url(../assets/images/headerBkg.png);
 }
 
 #header-left-col {
-	padding: 5em;
+	padding-top: 12em;
+	padding-left: 5em;
+	padding-bottom: 5em;
+	padding-right: 5em;
 }
 
 #header-right-col {
-	padding-top: 1em;
+	padding-top: 3.5em;
 	padding-left: 1em;
 	padding-bottom: 5em;
 	padding-right: 5em;
@@ -87,11 +90,17 @@ footer ul {
 }
 
 .feature_image {
-	padding: 5em;
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-bottom: 2em;
+	padding-right: 5em;
 }
 
 .feature_description {
-	padding: 5em;
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-bottom: 2em;
+	padding-right: 5em;
 }
 
 .feature_headers {
